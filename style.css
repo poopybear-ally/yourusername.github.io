@@ -1,0 +1,108 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #FF5733;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.hero {
+    background: url('pizza-hero.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+.menu .menu-items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.menu-item {
+    width: 30%;
+    text-align: center;
+}
+
+.menu-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.about, .contact {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1em;
+}
+
+form button {
+    padding: 15px;
+    font-size: 1.2em;
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
