@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweaty Pizza</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Sweaty Pizza</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Welcome to Sweaty Pizza!</h2>
+        <p>Your new favorite pizza place. Fresh, hot, and always sweaty.</p>
+    </section>
+
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <h3>Classic Margherita</h3>
+                <p>A timeless classic with fresh mozzarella, basil, and a touch of olive oil.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Pepperoni Pizza</h3>
+                <p>Loaded with savory pepperoni, cheese, and a crispy crust.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Vegetarian Delight</h3>
+                <p>A medley of fresh veggies on a cheesy crust, perfect for plant lovers.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>At Sweaty Pizza, we're passionate about making the best pizza. Our dough is always fresh, and we use only the finest ingredients. Whether you're a meat lover or prefer a vegetarian slice, we've got something for everyone!</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="#">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sweaty Pizza. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
